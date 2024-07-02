@@ -6,7 +6,7 @@ const Card = ({ item }) => {
       <section className="card-section">
         <div className="card-container section">
           <img
-            src={`../src/assets/images/${item.coverImg}`}
+            src={`./src/assets/images/${item.coverImg}`}
             alt="image"
             className="card-image"
           />
